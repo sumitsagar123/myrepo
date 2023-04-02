@@ -1,0 +1,54 @@
+{
+  "houses": [
+    {
+      "name": "sfas",
+      "ownerName": "",
+      "address": "fas",
+      "areaCode": "sumit sagar",
+      "isBachelorAllowed": false,
+      "isMarriedAllowed": true,
+      "rent": "eeee",
+      "id": 10
+    },
+    {
+      "name": "sfas",
+      "ownerName": "sumit sagar",
+      "address": "fas",
+      "areaCode": "sumit sagar",
+      "isBachelorAllowed": false,
+      "isMarriedAllowed": true,
+      "rent": "eeee",
+      "id": 13
+    },
+    {
+      "name": "",
+      "ownerName": "",
+      "address": "",
+      "areaCode": "",
+      "isBachelorAllowed": false,
+      "isMarriedAllowed": false,
+      "rent": "23423",
+      "id": 14
+    },
+    {
+      "name": "",
+      "ownerName": "",
+      "address": "",
+      "areaCode": "",
+      "isBachelorAllowed": false,
+      "isMarriedAllowed": false,
+      "rent": "23",
+      "id": 15
+    },
+    {
+      "name": "",
+      "ownerName": "",
+      "address": "",
+      "areaCode": "",
+      "isBachelorAllowed": false,
+      "isMarriedAllowed": false,
+      "rent": "2445",
+      "id": 16
+    }
+  ]
+}
