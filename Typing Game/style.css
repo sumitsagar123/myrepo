@@ -130,6 +130,7 @@ body {
 .result-detail li:not(:first-child) span {
   font-weight: 500;
 }
+
 .content button {
   border: none;
   outline: none;
@@ -141,7 +142,7 @@ body {
   font-size: 16px;
   border-radius: 5px;
   /* background: #178ab8; */
-background: #646669;
+  background: #646669;
   transition: tranform 0.3s ease;
 }
 .content button:active {
@@ -154,9 +155,11 @@ background: #646669;
 .time span b {
   color: #d6ae16;
 }
-.time span b{
+
+.time span b {
   font-size: 20px;
 }
+
 .mistake p,
 .wpm p,
 .cpm p {
