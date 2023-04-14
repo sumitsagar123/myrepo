@@ -59,20 +59,24 @@ body {
 .typing-text p span {
   position: relative;
 }
+
 .typing-text p span.correct {
   /* color: #56964f; */
   color: white;
 }
+
 .typing-text p span.incorrect {
   color: #cb3439;
   /* background: #ffc0cb; */
   /* outline: 1px solid #fff; */
   border-radius: 4px;
 }
+
 .typing-text p span.active {
   /* color: #17a2b8; */
   color: white;
 }
+
 .typing-text p span.active::before {
   content: "";
   position: absolute;
@@ -85,6 +89,7 @@ body {
   opacity: 0;
   animation: blink 1s ease-in-out infinite;
 }
+
 @keyframes blink {
   50% {
     opacity: 1;
@@ -130,6 +135,7 @@ body {
 .result-detail li:not(:first-child) span {
   font-weight: 500;
 }
+
 .content button {
   border: none;
   outline: none;
@@ -141,9 +147,10 @@ body {
   font-size: 16px;
   border-radius: 5px;
   /* background: #178ab8; */
-background: #646669;
+  background: #646669;
   transition: tranform 0.3s ease;
 }
+
 .content button:active {
   transform: scale(0.97);
 }
@@ -154,9 +161,11 @@ background: #646669;
 .time span b {
   color: #d6ae16;
 }
-.time span b{
+
+.time span b {
   font-size: 20px;
 }
+
 .mistake p,
 .wpm p,
 .cpm p {
